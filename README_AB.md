@@ -91,13 +91,11 @@ ESSE TUTORIAL TEM COMO OBJETIVO ENSINAR A REALIZAR OS TESTES DE CARGA SIMPLES NO
 
 ⚠️ Dicas importantes
 
-    #Sempre certifique-se de que a aplicação React está corretamente compilada e que os arquivos foram copiados para /var/www/cafeteria-app.
+#Sempre certifique-se de que a aplicação React está corretamente compilada e que os arquivos foram copiados para /var/www/cafeteria-app.
 
-    #Alem disso o Nginx precisa estar rodando antes de executar o ab.
+#Alem disso o Nginx precisa estar rodando antes de executar o ab.
 
-    #O domínio cafeteria.local precisa estar resolvendo corretamente via /etc/hosts tanto no windows como no linux.
-
-
+#O domínio cafeteria.local precisa estar resolvendo corretamente via /etc/hosts tanto no windows como no linux.
 
 
 #com esse passo a passo da pra realizar os testes testes de carga na maquina.
