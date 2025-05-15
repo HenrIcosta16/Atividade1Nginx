@@ -30,7 +30,7 @@ ESSE TUTORIAL TEM COMO OBJETIVO ENSINAR A REALIZAR OS TESTES DE CARGA SIMPLES NO
     http://cafeteria.local/: end point ou url do serviço a ser testado
 
     
-#no meu exemplo eu nao nomiei o servidor como end point http://react.local/ e como diretorio root do servidor defini react-app, mas é so trocar os dados na hora de criar a pasta. 
+#no meu exemplo eu nomiei o servidor como end point http://react.local/ e como diretorio root do servidor defini react-app, mas é so trocar os dados na hora de criar a pasta. 
 
 📊 Etapa 4: veja no exemplo abaixo como seria a saida na versao da atividade da cafeteria:
 
