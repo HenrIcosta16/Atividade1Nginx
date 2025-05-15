@@ -80,7 +80,7 @@ ESSE TUTORIAL TEM COMO OBJETIVO ENSINAR A CRIAR A PAGINA DO REACT VITE COM SUA T
         
         sudo nano /etc/hosts
 
-  #Apos isso adicione o ip e o nome do end point do servidor, exemplo de ip e nome da maquina abaixo:
+  #Apos isso adicione o ip e o nome do end point do servidor, exemplo de ip e nome do server abaixo:
 
         127.19.2.1 cafeteria.local
 
