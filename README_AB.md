@@ -16,7 +16,7 @@ ESSE TUTORIAL TEM COMO OBJETIVO ENSINAR A REALIZAR OS TESTES DE CARGA SIMPLES NO
 
 ⚙️ Etapa 3: Executar o teste de carga com Apache Bench
 
- #aqui eu  simulei 100 requisições simultâneas, com 10 conexões concorrentes na rota principal / da minha aplicação React (cafeteria.local). deve se utilizar o comando abaixo na entrada do cmd: 
+ #aqui eu  simulei 100 requisições simultâneas, com 10 conexões concorrentes na rota principal da minha aplicação React (cafeteria.local). deve se utilizar o comando abaixo na entrada do cmd: 
 
     ab -n 100 -c 10 http://cafeteria.local/
 
@@ -29,17 +29,15 @@ ESSE TUTORIAL TEM COMO OBJETIVO ENSINAR A REALIZAR OS TESTES DE CARGA SIMPLES NO
 
     http://cafeteria.local/: end point ou url do serviço a ser testado
 
-    
-#no meu exemplo eu nomiei o servidor como end point http://react.local/ e como diretorio root do servidor defini react-app, mas é so trocar os dados na hora de criar a pasta. 
 
-📊 Etapa 4: veja no exemplo abaixo como seria a saida na versao da atividade da cafeteria:
+📊 Etapa 4: veja o exemplo da minha saida abaixo da cafeteria:
 
         VirtualBox:~$ ab -n 100 -c 10 http://cafeteria.local/
         This is ApacheBench, Version 2.3 <$Revision: 1903618 $>
         Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
         Licensed to The Apache Software Foundation, http://www.apache.org/
 
-        Benchmarking react.local (be patient).....done
+        Benchmarking cafeteria.local (be patient).....done
 
 
         Server Software:        nginx/1.24.0
