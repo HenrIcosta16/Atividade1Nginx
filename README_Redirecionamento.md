@@ -33,7 +33,7 @@ ESSE TUTORIAL TEM COMO OBJETIVO ENSINAR A CRIAR A PAGINA DO REACT VITE COM SUA T
    #Ao digitar o comando abaixo ele vai abrir o arquivo e quando abrir vai ter varios comandos exemplo: editar s/n ?, sair == control x, salvar == control o, ler o arqv == control  R, executar == control t, e etc.
      
 
-        sudo nano /etc/nginx/sites-available/cafeteria
+        sudo nano /etc/nginx/sites-available/cafeteria-app
 
     
 
@@ -58,7 +58,7 @@ ESSE TUTORIAL TEM COMO OBJETIVO ENSINAR A CRIAR A PAGINA DO REACT VITE COM SUA T
 
    #Apos isso voce deve ativar o site com o comando abaixo no cmd:
 
-        sudo ln -s /etc/nginx/sites-available/cafeteria /etc/nginx/sites-enabled/
+        sudo ln -s /etc/nginx/sites-available/cafeteria-app /etc/nginx/sites-enabled/
 
         
    #Em seguida voce deve reiniciar o nginx usando o comando abaixo:
